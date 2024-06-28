@@ -26,6 +26,12 @@ export const COMMUNITY_TEMPLATES_DATA: Template[] = [
     description: 'Next.js app router + Mantine + Tailwind template',
   },
   {
+    type: 'next',
+    name: 'next-bun-template',
+    link: 'https://github.com/KennethAduan/kenstack-bun-nextjs-mantine/',
+    description: 'Next.js app router + Mantine + Bun template',
+  },
+  {
     type: 'vite',
     name: 'nx-vite-monorepo-template',
     link: 'https://github.com/dipiash/nx-vite-react-ts-mantine-boilerplate',
@@ -49,5 +55,11 @@ export const COMMUNITY_TEMPLATES_DATA: Template[] = [
     name: 'supabase-template',
     link: 'https://github.com/LanVukusic/mantine-supabase-template',
     description: 'Vite + Supabase + Mantine template',
+  },
+  {
+    type: 'vite',
+    name: 'waku-template',
+    link: 'https://github.com/doiska/waku-mantine-starter',
+    description: 'Vite + Waku + Mantine template',
   },
 ];
